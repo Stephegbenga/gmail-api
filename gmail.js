@@ -27,7 +27,7 @@ oAuth2Client.setCredentials({ refresh_token: REFRESH_TOKEN });
   
   // Home route
   app.get('/', (req, res) => {
-      res.send(`Hello World.!`);
+      res.send(`Gmail Api For Sending Mail to entered email address`);
   });
   
   app.post('/', async (req, res) => {
